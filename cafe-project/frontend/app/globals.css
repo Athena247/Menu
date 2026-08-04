@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #15161a;
+}
+
+/* Ince altin ayrac - sitenin imza detayi */
+.gilt-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+.gilt-divider::before,
+.gilt-divider::after {
+  content: "";
+  height: 1px;
+  width: 48px;
+  background: linear-gradient(to right, transparent, #b8935b, transparent);
+}
+.gilt-divider .dot {
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg);
+  background-color: #b8935b;
+}
+
+/* Klavye ile gezinen kullanicilar icin gorunur odak */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #b8935b;
+  outline-offset: 3px;
+}
+
+/* Arapca (RTL) metinlerde genis harf araligi okunabilirligi bozdugu icin
+   bu deger otomatik olarak daraltilir */
+[dir="rtl"] .tracking-widest2 {
+  letter-spacing: 0.05em;
+}
+
+/* Arapca font sahte (oblique) italik render edildiginde bozuk gorundugu icin kapatilir */
+[dir="rtl"] .italic {
+  font-style: normal;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

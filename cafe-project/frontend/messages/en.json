@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Cafe | A Modern, Elegant Pause",
+    "description": "A modern, minimalist cafe experience. Carefully selected coffee and food."
+  },
+  "nav": {
+    "menu": "Menu",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "In the heart of the city",
+    "title": "A quiet pause, poured into one cup",
+    "subtitle": "A modern space with carefully chosen coffee and food.",
+    "cta": "Explore the Menu"
+  },
+  "menu": {
+    "eyebrow": "Menu",
+    "title": "What brings you here today?",
+    "empty": "No products have been added to this category yet.",
+    "loading": "Loading menu...",
+    "error": "The menu could not be loaded right now. Please try again later.",
+    "featured": "Featured"
+  },
+  "footer": {
+    "hours": "Opening Hours",
+    "hoursCta": "Open location on map",
+    "contact": "Contact",
+    "callCta": "Call now",
+    "follow": "Follow Us",
+    "order": "Order Online",
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Kafe | Modern ve Zarif Bir Mola",
+    "description": "Modern ve minimalist bir kafe deneyimi. Ozenle secilmis kahveler ve lezzetler."
+  },
+  "nav": {
+    "menu": "Menü",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "eyebrow": "Ankara'nın kalbinde",
+    "title": "Sade bir fincanda, özenli bir duraklama",
+    "subtitle": "Modern bir mekânda, dikkatle seçilmiş kahveler ve lezzetler.",
+    "cta": "Menüyü Keşfet"
+  },
+  "menu": {
+    "eyebrow": "Menü",
+    "title": "Bugün ne için burada olacaksınız?",
+    "empty": "Bu kategoride henüz ürün eklenmedi.",
+    "loading": "Menü yükleniyor...",
+    "error": "Menü şu anda yüklenemedi. Lütfen daha sonra tekrar deneyin.",
+    "featured": "Öne Çıkanlar"
+  },
+  "footer": {
+    "hours": "Çalışma Saatleri",
+    "hoursCta": "Konumu haritada aç",
+    "contact": "İletişim",
+    "callCta": "Hemen ara",
+    "follow": "Bizi Takip Edin",
+    "order": "Online Sipariş Ver",
+    "rights": "Tüm hakları saklıdır."
+  }
+}
