@@ -12,6 +12,7 @@ const settingsRoutes = require("./routes/settings.routes");
 const uploadRoutes = require("./routes/upload.routes");
 
 const app = express();
+app.set('trust proxy', 1);
 
 // Veritabani baglantisi
 connectDB();
