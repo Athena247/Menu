@@ -3,6 +3,7 @@ import { Locale } from "@/i18n";
 import { getCategories, getProducts, getSettings } from "@/lib/api";
 import MenuBrowser from "@/components/MenuBrowser";
 import ProductCard from "@/components/ProductCard";
+export const dynamic = 'force-dynamic';
 
 export default async function HomePage({
   params: { locale },
